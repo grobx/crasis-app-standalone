@@ -13,6 +13,10 @@
 #include <queue>
 #include <memory>
 #include <tuple>
+#include <assert.h>
+
+#include <nnxx/reqrep.h>
+#include <nnxx/socket.h>
 
 #include "Crasis/Network/SocketListener.h"
 
@@ -21,7 +25,7 @@ namespace Crasis {
         class EventDispatcher
         {
         public:
-            void addListener (std::unique_ptr<Crasis::Network::SocketListener> l, std::shared_ptr<zmq::socket_t> s);
+            void addListener (std::unique_ptr<Crasis::Network::SocketListener> l, std::shared_ptr<nnxx::socket> s);
             
             void loop ();
             void initialize ();
@@ -29,12 +33,12 @@ namespace Crasis {
             
         private:
             std::map<
-            void*, // the ptr of socket_t
-            std::shared_ptr<zmq::socket_t>
+            int, // the fd of socket
+            std::shared_ptr<nnxx::socket>
             > m_sockets;
 
             std::multimap<
-            void*, // the ptr of socket_t
+            int, // the fd of socket
             std::unique_ptr<Crasis::Network::SocketListener>
             > m_listeners;
             

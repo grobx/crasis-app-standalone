@@ -10,8 +10,6 @@
 #include <functional>
 #include <memory>
 
-#include <zmq.hpp>
-
 namespace Crasis {
     namespace Network {
         class SocketListener
@@ -22,7 +20,6 @@ namespace Crasis {
             std::function<void()> onInit;
             std::function<void()> onRecv;
             std::function<void()> onSend;
-            std::function<void()> onError;
         };
     }
 }

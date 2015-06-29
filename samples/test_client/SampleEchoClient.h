@@ -9,8 +9,9 @@
 
 #include <iostream>
 #include <memory>
+#include <assert.h>
 
-#include <zmq.hpp>
+#include <nnxx/message.h>
 
 #include "Crasis/Application.h"
 #include "Crasis/Network/SocketListener.h"
@@ -31,7 +32,6 @@ private:
     void initSockets ();
     void loop ();
     
-    zmq::context_t m_context;
     Crasis::Network::EventDispatcher m_dispatcher;
 };
 

@@ -22,7 +22,6 @@ int SampleEchoServer::exec(variables_map vm)
 
 void SampleEchoServer::initContext()
 {
-    m_context = zmq::context_t(ZMQ_IO_THREADS_DFLT);
     m_dispatcher = EventDispatcher();
 }
 
@@ -30,34 +29,26 @@ void SampleEchoServer::initSockets()
 {
     using SocketListener = Crasis::Network::SocketListener;
     
-    auto rep = std::make_shared<zmq::socket_t>(m_context, ZMQ_REP);
+    auto rep = std::make_shared<nnxx::socket>(nnxx::SP, nnxx::REQ);
     auto repListener = std::make_unique<SocketListener>();
     
     repListener->onInit = [rep]() {
         std::cout << "Echo Server Socket Initialized!" << std::endl << std::flush;
         
-        rep->bind("tcp://*:5555");
+        nnxx::endpoint eid = rep->bind("tcp://*:5555");
+        assert(eid > 0);
     };
 
     repListener->onRecv = [rep]() {
         std::cout << "Echo Server Socket Recv Data!" << std::endl << std::flush;
 
-        zmq::message_t msg;
-        rep->recv(&msg);
-        
-        rep->send(msg);
+        nnxx::message msg = rep->recv();
+        int size = rep->send(msg);
+        assert(size != -1);
     };
 
     repListener->onSend = [rep]() {
-        // This never get called for ZMQ_REP binded socket
         std::cout << "Echo Server Socket Send Data!" << std::endl << std::flush;
-    };
-    
-    repListener->onError = [rep]() {
-        std::cout << "Echo Server Socket Error!" << std::endl << std::flush;
-        
-        rep->close();
-        rep->bind("tcp://*:5555");
     };
     
     m_dispatcher.addListener(std::move(repListener), rep);
