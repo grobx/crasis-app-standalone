@@ -20,21 +20,16 @@
 		D261FA5C1B2E1D88001E3319 /* SocketListener.h in Headers */ = {isa = PBXBuildFile; fileRef = D261FA551B2E017A001E3319 /* SocketListener.h */; };
 		D261FA5D1B2E1D8C001E3319 /* SocketListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D261FA541B2E017A001E3319 /* SocketListener.cpp */; };
 		D261FA651B2F9038001E3319 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D261FA641B2F9038001E3319 /* main.cpp */; };
-		D265F9281B9C38710088D784 /* libnanomsg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D265F9271B9C38710088D784 /* libnanomsg.dylib */; };
-		D265F9291B9C38940088D784 /* libnanomsg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D265F9271B9C38710088D784 /* libnanomsg.dylib */; };
-		D265F92A1B9C389E0088D784 /* libnanomsg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D265F9271B9C38710088D784 /* libnanomsg.dylib */; };
-		D265F92B1B9C38AA0088D784 /* libnanomsg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D265F9271B9C38710088D784 /* libnanomsg.dylib */; };
-		D265F9331B9E41F40088D784 /* RegisterRoute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D265F9311B9E41F40088D784 /* RegisterRoute.cpp */; };
-		D28477C41B9B761D00085B21 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D28477C31B9B761D00085B21 /* main.cpp */; };
-		D28477CB1B9B76D700085B21 /* HttpEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D28477C91B9B76D700085B21 /* HttpEngine.cpp */; };
-		D28477CC1B9B777D00085B21 /* libboost_program_options-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D261FA4B1B2DFDB1001E3319 /* libboost_program_options-mt.dylib */; };
-		D28477CD1B9B778600085B21 /* libcrasis.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D261FA401B2DFBAA001E3319 /* libcrasis.dylib */; };
-		D28477D01B9B77B500085B21 /* libnnxx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2983AD51B41552E0062DDF6 /* libnnxx.dylib */; };
-		D28477D31B9B983E00085B21 /* CtrlListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D28477D11B9B983E00085B21 /* CtrlListener.cpp */; };
-		D2983AD61B41552E0062DDF6 /* libnnxx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2983AD51B41552E0062DDF6 /* libnnxx.dylib */; };
-		D2983AD71B4155340062DDF6 /* libnnxx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2983AD51B41552E0062DDF6 /* libnnxx.dylib */; };
-		D2983AD81B4155390062DDF6 /* libnnxx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2983AD51B41552E0062DDF6 /* libnnxx.dylib */; };
-		D2B596A81B41AC5100BD2C10 /* EventDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B596A71B41AC5100BD2C10 /* EventDispatcher.h */; };
+		D28447B41B3AB81700CA3AA8 /* libnnxx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D28447B31B3AB81700CA3AA8 /* libnnxx.dylib */; };
+		D28447B51B3AB89600CA3AA8 /* libnnxx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D28447B31B3AB81700CA3AA8 /* libnnxx.dylib */; };
+		D28447B61B3AB8A000CA3AA8 /* libnnxx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D28447B31B3AB81700CA3AA8 /* libnnxx.dylib */; };
+		D2B23F611B406F210017C68F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2B23F601B406F210017C68F /* main.cpp */; };
+		D2B23F671B40702D0017C68F /* SampleRouter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2B23F651B40702D0017C68F /* SampleRouter.cpp */; };
+		D2B23F681B4071150017C68F /* libnnxx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D28447B31B3AB81700CA3AA8 /* libnnxx.dylib */; };
+		D2B23F691B4071220017C68F /* libboost_program_options-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D261FA4B1B2DFDB1001E3319 /* libboost_program_options-mt.dylib */; };
+		D2B23F6A1B4071240017C68F /* libcrasis.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D261FA401B2DFBAA001E3319 /* libcrasis.dylib */; };
+		D2B23F6C1B407B4F0017C68F /* RecvEventNext.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B23F6B1B407B4F0017C68F /* RecvEventNext.h */; };
+		D2B23F6E1B407B620017C68F /* RecvEventNext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2B23F6D1B407B620017C68F /* RecvEventNext.cpp */; };
 		D2F557FC1B2DFA5F00EE76A4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F557EC1B2DFA2100EE76A4 /* main.cpp */; };
 		D2F557FD1B2DFA6100EE76A4 /* SampleEchoServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2F557ED1B2DFA2100EE76A4 /* SampleEchoServer.cpp */; };
 /* End PBXBuildFile section */
@@ -49,7 +44,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		D28477BF1B9B761D00085B21 /* CopyFiles */ = {
+		D2B23F5C1B406F210017C68F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -70,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D22029181B415067009C2B45 /* EventDispatcherNext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventDispatcherNext.h; sourceTree = "<group>"; };
 		D235BBB71B2F91C50068AFFB /* EventDispatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EventDispatcher.cpp; sourceTree = "<group>"; };
 		D235BBB91B2F93840068AFFB /* EventDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDispatcher.h; sourceTree = "<group>"; };
 		D235BBBD1B2F97940068AFFB /* SampleEchoClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SampleEchoClient.cpp; sourceTree = "<group>"; };
@@ -80,19 +76,13 @@
 		D261FA551B2E017A001E3319 /* SocketListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketListener.h; path = /Users/piribes/Works/_/Crasis/include/Crasis/Network/SocketListener.h; sourceTree = "<absolute>"; };
 		D261FA621B2F9038001E3319 /* test_client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test_client; sourceTree = BUILT_PRODUCTS_DIR; };
 		D261FA641B2F9038001E3319 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D265F9271B9C38710088D784 /* libnanomsg.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnanomsg.dylib; path = ../../../../../../usr/local/lib/libnanomsg.dylib; sourceTree = "<group>"; };
-		D265F92D1B9E33C80088D784 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D265F92E1B9E33C80088D784 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D265F9311B9E41F40088D784 /* RegisterRoute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegisterRoute.cpp; sourceTree = "<group>"; };
-		D265F9321B9E41F40088D784 /* RegisterRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterRoute.h; sourceTree = "<group>"; };
-		D28477C11B9B761D00085B21 /* http_engine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = http_engine; sourceTree = BUILT_PRODUCTS_DIR; };
-		D28477C31B9B761D00085B21 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D28477C91B9B76D700085B21 /* HttpEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HttpEngine.cpp; sourceTree = "<group>"; };
-		D28477CA1B9B76D700085B21 /* HttpEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpEngine.h; sourceTree = "<group>"; };
-		D28477D11B9B983E00085B21 /* CtrlListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CtrlListener.cpp; sourceTree = "<group>"; };
-		D28477D21B9B983E00085B21 /* CtrlListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CtrlListener.h; sourceTree = "<group>"; };
-		D2983AD51B41552E0062DDF6 /* libnnxx.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnnxx.dylib; path = ../../../../../../usr/local/lib/libnnxx.dylib; sourceTree = "<group>"; };
-		D2B596A71B41AC5100BD2C10 /* EventDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventDispatcher.h; path = ../../../src/Crasis/Network/EventDispatcher.h; sourceTree = "<group>"; };
+		D28447B31B3AB81700CA3AA8 /* libnnxx.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnnxx.dylib; path = ../../Vendor/nanomsgxx/build/src/nnxx/libnnxx.dylib; sourceTree = "<group>"; };
+		D2B23F5E1B406F210017C68F /* test_router_listener */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test_router_listener; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B23F601B406F210017C68F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D2B23F651B40702D0017C68F /* SampleRouter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SampleRouter.cpp; sourceTree = "<group>"; };
+		D2B23F661B40702D0017C68F /* SampleRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleRouter.h; sourceTree = "<group>"; };
+		D2B23F6B1B407B4F0017C68F /* RecvEventNext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecvEventNext.h; sourceTree = "<group>"; };
+		D2B23F6D1B407B620017C68F /* RecvEventNext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecvEventNext.cpp; sourceTree = "<group>"; };
 		D2F557CD1B2DF73000EE76A4 /* Application.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Application.cpp; sourceTree = "<group>"; };
 		D2F557D61B2DF76C00EE76A4 /* Application.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
 		D2F557EC1B2DFA2100EE76A4 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -106,9 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28447B41B3AB81700CA3AA8 /* libnnxx.dylib in Frameworks */,
 				D261FA4C1B2DFDB1001E3319 /* libboost_program_options-mt.dylib in Frameworks */,
-				D2983AD81B4155390062DDF6 /* libnnxx.dylib in Frameworks */,
-				D265F92B1B9C38AA0088D784 /* libnanomsg.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,21 +105,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28447B61B3AB8A000CA3AA8 /* libnnxx.dylib in Frameworks */,
 				D235BBC31B2F982C0068AFFB /* libboost_program_options-mt.dylib in Frameworks */,
 				D235BBC41B2F982F0068AFFB /* libcrasis.dylib in Frameworks */,
-				D2983AD71B4155340062DDF6 /* libnnxx.dylib in Frameworks */,
-				D265F9281B9C38710088D784 /* libnanomsg.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D28477BE1B9B761D00085B21 /* Frameworks */ = {
+		D2B23F5B1B406F210017C68F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D28477CC1B9B777D00085B21 /* libboost_program_options-mt.dylib in Frameworks */,
-				D28477CD1B9B778600085B21 /* libcrasis.dylib in Frameworks */,
-				D28477D01B9B77B500085B21 /* libnnxx.dylib in Frameworks */,
-				D265F92A1B9C389E0088D784 /* libnanomsg.dylib in Frameworks */,
+				D2B23F6A1B4071240017C68F /* libcrasis.dylib in Frameworks */,
+				D2B23F691B4071220017C68F /* libboost_program_options-mt.dylib in Frameworks */,
+				D2B23F681B4071150017C68F /* libnnxx.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,10 +125,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28447B51B3AB89600CA3AA8 /* libnnxx.dylib in Frameworks */,
 				D261FA4E1B2DFDC5001E3319 /* libboost_program_options-mt.dylib in Frameworks */,
 				D261FA481B2DFC83001E3319 /* libcrasis.dylib in Frameworks */,
-				D2983AD61B41552E0062DDF6 /* libnnxx.dylib in Frameworks */,
-				D265F9291B9C38940088D784 /* libnanomsg.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,47 +145,22 @@
 			path = ../samples/test_client;
 			sourceTree = "<group>";
 		};
-		D265F92C1B9E33B50088D784 /* Other Files */ = {
+		D2B23F5F1B406F210017C68F /* test_router_listener */ = {
 			isa = PBXGroup;
 			children = (
-				D265F92D1B9E33C80088D784 /* LICENSE */,
-				D265F92E1B9E33C80088D784 /* README.md */,
+				D2B23F601B406F210017C68F /* main.cpp */,
+				D2B23F651B40702D0017C68F /* SampleRouter.cpp */,
+				D2B23F661B40702D0017C68F /* SampleRouter.h */,
 			);
-			name = "Other Files";
-			sourceTree = "<group>";
-		};
-		D265F9301B9E41A20088D784 /* Requests */ = {
-			isa = PBXGroup;
-			children = (
-				D265F9311B9E41F40088D784 /* RegisterRoute.cpp */,
-				D265F9321B9E41F40088D784 /* RegisterRoute.h */,
-			);
-			name = Requests;
-			sourceTree = "<group>";
-		};
-		D28477C21B9B761D00085B21 /* Http Engine */ = {
-			isa = PBXGroup;
-			children = (
-				D265F9301B9E41A20088D784 /* Requests */,
-				D28477C31B9B761D00085B21 /* main.cpp */,
-				D28477C91B9B76D700085B21 /* HttpEngine.cpp */,
-				D28477CA1B9B76D700085B21 /* HttpEngine.h */,
-				D28477D11B9B983E00085B21 /* CtrlListener.cpp */,
-				D28477D21B9B983E00085B21 /* CtrlListener.h */,
-			);
-			name = "Http Engine";
-			path = ../samples/http_engine;
+			path = test_router_listener;
 			sourceTree = "<group>";
 		};
 		D2F557C51B2DF66900EE76A4 = {
 			isa = PBXGroup;
 			children = (
-				D265F92C1B9E33B50088D784 /* Other Files */,
-				D265F9271B9C38710088D784 /* libnanomsg.dylib */,
-				D2983AD51B41552E0062DDF6 /* libnnxx.dylib */,
+				D28447B31B3AB81700CA3AA8 /* libnnxx.dylib */,
 				D261FA4B1B2DFDB1001E3319 /* libboost_program_options-mt.dylib */,
 				D261FA401B2DFBAA001E3319 /* libcrasis.dylib */,
-				D28477C21B9B761D00085B21 /* Http Engine */,
 				D2F557DD1B2DF7ED00EE76A4 /* Headers */,
 				D2F557D41B2DF73900EE76A4 /* Classes */,
 				D2F557E41B2DF98900EE76A4 /* Samples */,
@@ -221,6 +182,8 @@
 			children = (
 				D235BBB71B2F91C50068AFFB /* EventDispatcher.cpp */,
 				D261FA541B2E017A001E3319 /* SocketListener.cpp */,
+				D2B23F6D1B407B620017C68F /* RecvEventNext.cpp */,
+				D22029181B415067009C2B45 /* EventDispatcherNext.h */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -246,9 +209,9 @@
 		D2F557D81B2DF76C00EE76A4 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				D2B596A71B41AC5100BD2C10 /* EventDispatcher.h */,
 				D235BBB91B2F93840068AFFB /* EventDispatcher.h */,
 				D261FA551B2E017A001E3319 /* SocketListener.h */,
+				D2B23F6B1B407B4F0017C68F /* RecvEventNext.h */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -266,9 +229,10 @@
 			children = (
 				D2F557EB1B2DFA2100EE76A4 /* test_server */,
 				D261FA631B2F9038001E3319 /* test_client */,
+				D2B23F5F1B406F210017C68F /* test_router_listener */,
 				D2F557F51B2DFA4D00EE76A4 /* test_server */,
 				D261FA621B2F9038001E3319 /* test_client */,
-				D28477C11B9B761D00085B21 /* http_engine */,
+				D2B23F5E1B406F210017C68F /* test_router_listener */,
 			);
 			name = Samples;
 			sourceTree = "<group>";
@@ -294,7 +258,7 @@
 				D235BBBB1B2F93840068AFFB /* EventDispatcher.h in Headers */,
 				D261FA4F1B2E00A2001E3319 /* Application.h in Headers */,
 				D261FA5C1B2E1D88001E3319 /* SocketListener.h in Headers */,
-				D2B596A81B41AC5100BD2C10 /* EventDispatcher.h in Headers */,
+				D2B23F6C1B407B4F0017C68F /* RecvEventNext.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,21 +299,21 @@
 			productReference = D261FA621B2F9038001E3319 /* test_client */;
 			productType = "com.apple.product-type.tool";
 		};
-		D28477C01B9B761D00085B21 /* http_engine */ = {
+		D2B23F5D1B406F210017C68F /* test_router_listener */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D28477C71B9B761D00085B21 /* Build configuration list for PBXNativeTarget "http_engine" */;
+			buildConfigurationList = D2B23F641B406F210017C68F /* Build configuration list for PBXNativeTarget "test_router_listener" */;
 			buildPhases = (
-				D28477BD1B9B761D00085B21 /* Sources */,
-				D28477BE1B9B761D00085B21 /* Frameworks */,
-				D28477BF1B9B761D00085B21 /* CopyFiles */,
+				D2B23F5A1B406F210017C68F /* Sources */,
+				D2B23F5B1B406F210017C68F /* Frameworks */,
+				D2B23F5C1B406F210017C68F /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = http_engine;
-			productName = http_engine;
-			productReference = D28477C11B9B761D00085B21 /* http_engine */;
+			name = test_router_listener;
+			productName = test_router_listener;
+			productReference = D2B23F5E1B406F210017C68F /* test_router_listener */;
 			productType = "com.apple.product-type.tool";
 		};
 		D2F557F41B2DFA4D00EE76A4 /* test_server */ = {
@@ -375,7 +339,7 @@
 		D2F557C61B2DF66900EE76A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0630;
 				TargetAttributes = {
 					D261FA3F1B2DFBAA001E3319 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -383,8 +347,8 @@
 					D261FA611B2F9038001E3319 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					D28477C01B9B761D00085B21 = {
-						CreatedOnToolsVersion = 6.4;
+					D2B23F5D1B406F210017C68F = {
+						CreatedOnToolsVersion = 6.3.2;
 					};
 					D2F557F41B2DFA4D00EE76A4 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -406,7 +370,7 @@
 				D261FA3F1B2DFBAA001E3319 /* crasis */,
 				D2F557F41B2DFA4D00EE76A4 /* test_server */,
 				D261FA611B2F9038001E3319 /* test_client */,
-				D28477C01B9B761D00085B21 /* http_engine */,
+				D2B23F5D1B406F210017C68F /* test_router_listener */,
 			);
 		};
 /* End PBXProject section */
@@ -416,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B23F6E1B407B620017C68F /* RecvEventNext.cpp in Sources */,
 				D235BBB81B2F91C50068AFFB /* EventDispatcher.cpp in Sources */,
 				D261FA441B2DFBB9001E3319 /* Application.cpp in Sources */,
 				D261FA5D1B2E1D8C001E3319 /* SocketListener.cpp in Sources */,
@@ -431,14 +396,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D28477BD1B9B761D00085B21 /* Sources */ = {
+		D2B23F5A1B406F210017C68F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D28477D31B9B983E00085B21 /* CtrlListener.cpp in Sources */,
-				D28477C41B9B761D00085B21 /* main.cpp in Sources */,
-				D265F9331B9E41F40088D784 /* RegisterRoute.cpp in Sources */,
-				D28477CB1B9B76D700085B21 /* HttpEngine.cpp in Sources */,
+				D2B23F671B40702D0017C68F /* SampleRouter.cpp in Sources */,
+				D2B23F611B406F210017C68F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +434,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -503,7 +465,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/opt/local/lib,
-					/usr/local/lib,
+					/Users/piribes/Works/_/Vendor/nanomsgxx/build/src/nnxx,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -530,7 +492,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -556,7 +517,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/opt/local/lib,
-					/usr/local/lib,
+					/Users/piribes/Works/_/Vendor/nanomsgxx/build/src/nnxx,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -605,12 +566,12 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/local/include,
 					/opt/local/include,
-					"$(SRCROOT)/../include",
+					"\"$(SRCROOT)/../include\"",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/opt/local/lib,
-					/usr/local/lib,
+					/Users/piribes/Works/_/Vendor/nanomsgxx/build/src/nnxx,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -654,12 +615,12 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/local/include,
 					/opt/local/include,
-					"$(SRCROOT)/../include",
+					"\"$(SRCROOT)/../include\"",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/opt/local/lib,
-					/usr/local/lib,
+					/Users/piribes/Works/_/Vendor/nanomsgxx/build/src/nnxx,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -668,7 +629,7 @@
 			};
 			name = Release;
 		};
-		D28477C51B9B761D00085B21 /* Debug */ = {
+		D2B23F621B406F210017C68F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
@@ -708,21 +669,22 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/opt/local/include,
 					/usr/local/include,
-					"$(SRCROOT)/../include/",
+					"$(SRCROOT)/../include",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					/Users/piribes/Works/_/Vendor/nanomsgxx/build/src/nnxx,
 					/opt/local/lib,
-					/usr/local/lib,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		D28477C61B9B761D00085B21 /* Release */ = {
+		D2B23F631B406F210017C68F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
@@ -756,12 +718,12 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/opt/local/include,
 					/usr/local/include,
-					"$(SRCROOT)/../include/",
+					"$(SRCROOT)/../include",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					/Users/piribes/Works/_/Vendor/nanomsgxx/build/src/nnxx,
 					/opt/local/lib,
-					/usr/local/lib,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -773,8 +735,6 @@
 		D2F557CA1B2DF66900EE76A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -824,12 +784,12 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/local/include,
 					/opt/local/include,
-					"$(SRCROOT)/../include",
+					"\"$(SRCROOT)/../include\"",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/opt/local/lib,
-					/usr/local/lib,
+					/Users/piribes/Works/_/Vendor/nanomsgxx/build/src/nnxx,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -873,12 +833,12 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/local/include,
 					/opt/local/include,
-					"$(SRCROOT)/../include",
+					"\"$(SRCROOT)/../include\"",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/opt/local/lib,
-					/usr/local/lib,
+					/Users/piribes/Works/_/Vendor/nanomsgxx/build/src/nnxx,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -908,11 +868,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D28477C71B9B761D00085B21 /* Build configuration list for PBXNativeTarget "http_engine" */ = {
+		D2B23F641B406F210017C68F /* Build configuration list for PBXNativeTarget "test_router_listener" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D28477C51B9B761D00085B21 /* Debug */,
-				D28477C61B9B761D00085B21 /* Release */,
+				D2B23F621B406F210017C68F /* Debug */,
+				D2B23F631B406F210017C68F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

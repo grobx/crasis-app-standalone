@@ -20,12 +20,15 @@
 
 #include "Crasis/Network/SocketListener.h"
 
+using Listener = std::unique_ptr<Crasis::Network::SocketListener>;
+using Socket = std::shared_ptr<nnxx::socket>;
+
 namespace Crasis {
     namespace Network {
         class EventDispatcher
         {
         public:
-            void addListener (std::unique_ptr<Crasis::Network::SocketListener> l, std::shared_ptr<nnxx::socket> s);
+            void addListener (Listener l, Socket s);
             
             void loop ();
             void initialize ();

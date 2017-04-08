@@ -6,6 +6,8 @@
 
 #include "SampleEchoClient.h"
 
+#include <nanomsg/nn.h>
+
 using Crasis::Network::EventDispatcher;
 using Crasis::Network::SocketListener;
 

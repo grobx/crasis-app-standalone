@@ -7,6 +7,7 @@
 #include "SampleEchoServer.h"
 
 using Crasis::Network::EventDispatcher;
+using Crasis::Network::SocketListener;
 
 void SampleEchoServer::initOptions()
 {
@@ -27,10 +28,11 @@ void SampleEchoServer::initContext()
 
 void SampleEchoServer::initSockets()
 {
-    using SocketListener = Crasis::Network::SocketListener;
-    
+    auto fake = std::make_shared<nnxx::socket>(nnxx::SP, nnxx::REQ);
     auto rep = std::make_shared<nnxx::socket>(nnxx::SP, nnxx::REQ);
     auto repListener = std::make_unique<SocketListener>();
+    
+//    printf("nnstrerror: %s\n", nn_strerror(nn_errno()));
     
     repListener->onInit = [rep]() {
         std::cout << "Echo Server Socket Initialized!" << std::endl << std::flush;
@@ -43,7 +45,7 @@ void SampleEchoServer::initSockets()
         std::cout << "Echo Server Socket Recv Data!" << std::endl << std::flush;
 
         nnxx::message msg = rep->recv();
-        int size = rep->send(msg);
+        int size = rep->send(std::move(msg));
         assert(size != -1);
     };
 
